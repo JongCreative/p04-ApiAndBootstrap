@@ -61,10 +61,11 @@
 	<!--//gallery--> 
 
 	<!--search field-->
-	<form action="practice.php" method="post">
-		<input type="searchField" name="searchField"/>
+	<form action="apiData.php" method="POST">
+		<input type="search_string" name="search_string"/>
 		<input type="submit" value="search"/>
 	</form>
+
 	<!--//search field-->
 
 
