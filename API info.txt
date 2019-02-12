@@ -1,0 +1,43 @@
+APi INFO
+
+Application ID:
+cfca78b9
+
+This is the application ID, you should send with each API request.
+
+
+Application Key - to make the api query:
+
+79da0322fff417e5a405406191c0b605
+These are application keys used to authenticate requests.
+
+
+
+url query strings
+
+
+https://api.edamam.com/search?app_id=cfca78b9&app_key=79da0322fff417e5a405406191c0b605&q=butter&diet=low-carb&diet=high-protein
+
+
+
+
+
+
+
+$apiUrl = https://api.edamam.com/search?app_id=cfca78b9&app_key=79da0322fff417e5a405406191c0b605&q=;
+<?php 
+// Create cURL resource = with the cURL initialize function(cURL is a library that lets you make HTTP requests in PHP)
+$curl = curl_init();
+
+// Once the cURL resource is created, we are able to (manipulate) use functions that are specificaly designed for curl like $curl_setopt
+ manipulate the resource using functions
+
+//CURLOPT_URL instant(The URL to fetch), and provide the actual URL which will be loaded in the curl.
+//This can also be set when initializing a session with curl_init().
+$curl_setopt($curl, CURLOPT_URL, 'https://api.edamam.com/search?app_id=cfca78b9&app_key=79da0322fff417e5a405406191c0b605&q=');
+
+// Run cURL (execute http request)
+curl_exec($curl);
+
+// Close cURL resource, to free up the resources
+curl_close($curl);
