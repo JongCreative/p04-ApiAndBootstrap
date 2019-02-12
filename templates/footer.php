@@ -6,7 +6,7 @@
 					<h3 class="wow fadeInDown animated" data-wow-delay=".5s">Contact Us:</h3>
 					<ul>
 						<li class="wow slideInLeft animated" data-wow-delay=".5s"><i class="glyphicon glyphicon-send"></i>  Haagweg 1 <span> 4814 GA Breda </span></li>
-						<li class="wow slideInLeft animated" data-wow-delay=".5s"><i class="glyphicon glyphicon-phone"></i> +31 600 000 000 <span> +31 611 111 111 </span></li>
+						<li class="wow slideInLeft animated" data-wow-delay=".5s"><i class="glyphicon glyphicon-phone"></i> +31 600 000 000</li>
 						<li class="wow slideInLeft animated" data-wow-delay=".5s"><i class="glyphicon glyphicon-envelope"></i> <a href="mailto:example@mail.com"> p04-api@jongcreative.com</a></li>
 					</ul>
 				</div>
@@ -62,6 +62,7 @@
 							<li><a href="#" class="dott"> </a></li>
 						</ul>
 					</div>
+					<div id="edamam-badge" data-color="white"></div> <!-- API attribution requirements part2-2 -->
 				</div>
 				<div class="clearfix"> </div>
 			</div>
