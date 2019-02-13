@@ -5,7 +5,7 @@
 
 	
 	<!-- ALL PAGES -  -->
-	<?php //include "templates/head-customCSS1.php"; ?>
+	<?php include "templates/head-customCSS1.php"; ?>
 	<!-- CUSTOM CSS - INDEX -->
 	<?php //include "templates/head-customCSS2.php"; ?>
 	<!-- CUSTOM CSS - GALLERY -->
@@ -65,10 +65,13 @@
 		<input type="search_string" name="search_string"/>
 		<input type="submit" value="search"/>
 	</form>
-
 	<!--//search field-->
-
-
+	
+	<!-- search output -->
+	<div class="container-card">
+		<?php include('apiData.php'); ?>
+	</div>
+	<!-- //search output -->
 
 </main>
 <!--_______ END MAIN.________ -->
