@@ -61,7 +61,7 @@
 	<!--//gallery--> 
 
 	<!--search field-->
-	<form action="apiData.php" method="POST">
+	<form action="recipe.php" method="POST">
 		<input type="search_string" name="search_string"/>
 		<input type="submit" value="search"/>
 	</form>
